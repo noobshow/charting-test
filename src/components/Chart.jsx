@@ -12,6 +12,7 @@ class Chart extends React.Component {
 		this.props.setChartContainer($$$('#chartContainer'))
 	}
 	render() {
+		console.log(' ---- Chart, props : ', this.props);
 		return (
 			<div>
 				<UI {...this.props} />

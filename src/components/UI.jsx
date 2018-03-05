@@ -8,8 +8,8 @@ import DrawingToolbarButton from './UI/DrawingToolbarButton'
 import ShareChartModal from './Modals/ShareChartModal';
 
 //redux components
-import ThemeUIContainer from '../containers/themeUIContainer'
-import StudyUIContainer from '../containers/studyContainer'
+import ThemeUIContainer from '../../../adaptive-insights/client/src/containers/themeUIContainer'
+import StudyUIContainer from '../../../adaptive-insights/client/src/containers/studyContainer'
 
 const UI = (props) => {
 	return (

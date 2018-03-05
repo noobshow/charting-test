@@ -14,7 +14,8 @@ if(process.env.NODE_ENV === 'development'){
 
 let store = createStore(
   reducer,
-  applyMiddleware(...middlewares)
+	window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
+	applyMiddleware(...middlewares)
 );
 let chartEl = document.getElementById('chartHere');
 
